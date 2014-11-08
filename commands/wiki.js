@@ -1,7 +1,7 @@
 var request = require('request'),
     cheerio = require('cheerio');
 
-var echoCommand = {
+var wikiCommand = {
     process: function(command, telegramProcess) {
         console.log('Processing wiki command');
         console.log(command);
@@ -36,4 +36,4 @@ var echoCommand = {
     }
 };
 
-module.exports = echoCommand;
+module.exports = wikiCommand;

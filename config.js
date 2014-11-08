@@ -7,6 +7,10 @@
         {
             "command": "wiki",
             "processor": "wiki.js"
+        },
+        {
+            "command": "status",
+            "processor": "status.js"
         }
     ]
 }
